@@ -100,6 +100,24 @@ for (const element of cores) {
 }
 */
 
+let frase = rl.question("informe o texto para ser convertido: ");
+
+//Declaração de função
+
+function Masculo(texto) {
+    return texto.toUpperCase();
+}
+console.log(texto.toUpperCase());
+
+//Expressão de função
+const alta = function(texto) {
+    return texto.toUpperCase()
+}
+//Arow function
+const capslock = (texto) => texto.toUpperCase();
+
+console.log(alta(frase));
+
 'Funções'
 
 //Atualmente existem cinco tipos de definições, sendo:
@@ -150,3 +168,4 @@ function Pretos(nome) {
     this.Pretos = nome
 }
 const p = new  Pretos('Douglas') // {nome: 'Douglas'}
+
